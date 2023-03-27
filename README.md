@@ -32,12 +32,13 @@
 
 ## What are the notable differences between HTML & JSX? Give at least 3 of them.
 
-1. Syntax: HTML uses a tag-based syntax, where each element is enclosed in angle brackets (e.g., <div>, <p>, <img>). JSX, on the other hand, uses a syntax that looks similar to HTML but is actually a combination of JavaScript and XML. In JSX, elements are defined using a syntax that looks like HTML, but they are actually defined as JavaScript functions.
-2. In HTML, multiple elements can be returned on the other hand,  Nested JSX must return one element, which we’ll call a parent element that wraps all other levels of nested elements. Without the wrapper element, JSX won’t transpile.
+1. Syntax: HTML uses a tag-based syntax, where each element is enclosed in angle brackets. JSX, on the other hand, uses a syntax that looks similar to HTML but is actually a combination of JavaScript and XML. In JSX, elements are defined using a syntax that looks like HTML, but they are actually defined as JavaScript functions.
+2. In HTML, multiple elements can be returned on the other hand, Nested JSX must return one element, which we’ll call a parent element that wraps all other levels of nested elements. Without the wrapper element, JSX won’t transpile.
 
-3. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the. However for JSX, You can’t use the word class to define HTML classes, since class is a reserved word in JavaScript, instead, use — className. 
+3. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the. However for JSX, You can’t use the word class to define HTML classes, since class is a reserved word in JavaScript, instead, use — className.
 
 ## Why can’t browsers read JSX?
+
 Browsers cannot directly read JSX because JSX is a syntax extension of JavaScript, and browsers can only interpret and execute JavaScript code. JSX needs to be compiled or transpiled into regular JavaScript code before it can be executed by the browser.
 
 <!-- # Getting Started with Create React App
